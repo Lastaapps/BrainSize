@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/evil</item>
+        <item name="android:background">@color/background</item>
+
+        <item name="android:textColor">@color/evil</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="AppRoot" parent="AppTheme">
+        <item name="android:padding">@dimen/padding</item>
+    </style>
+
+    <style name="Buttons" parent="Base.Widget.AppCompat.Button">
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Labels" parent="AppRoot">
+    </style>
+
+    <style name="BigLabels" parent="Labels">
+        <item name="android:textSize">@dimen/bigTextSize</item>
+    </style>
+
+    <style name="SmallLabels" parent="Labels">
+        <item name="android:textSize">@dimen/smallTextSize</item>
+    </style>
+
+    <style name="ImageButton" parent="AppRoot">
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="Icons" parent="ImageButton">
+        <item name="android:maxWidth" >@dimen/icons_size</item>
+        <item name="android:maxHeight">@dimen/icons_size</item>
+        <item name="android:layout_width">@dimen/icons_size</item>
+        <item name="android:layout_height">@dimen/icons_size</item>
+
+    </style>
+
+</resources>

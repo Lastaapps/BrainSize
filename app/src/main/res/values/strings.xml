@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Brain Size</string>
+    <string name="start">Tap to start the test!</string>
+    <string name="scanning">Scanning...</string>
+    <string name="counting">Computing data...</string>
+    <string name="touch_to_scan">Hold me to start process</string>
+    <string name="begin_again">Test your friends!</string>
+    <string name="touch_the_button">Hold the button</string>
+    <string name="brain_size">This is your brain:</string>
+
+    <string name="fing_label">Choose the brain to show:</string>
+    <string name="input_label">The number of impressions:</string>
+    <string name="reset">Reset cheated brains</string>
+
+    <string name="update_title">New update is available!</string>
+    <string name="update_text">Click here to download it!</string>
+
+    <string name="version">Version</string>
+    <string name="release">Release</string>
+    <string name="author">by Lašťa apps</string>
+
+    <string name="soon">Function in development</string>
+
+    <string name="how_work_title"><u>How does it work?</u></string>
+    <string name="how_work_text">
+Our measuring mechanism is based on the data virtually from all the equipment sensors, for example: \n
+ - the front camera tracking a head size \n
+ - the display measuring the heart rate \n
+ - the microphone detecting the level of your vocabulary \n
+ - the gyroscopes verifying that you do not slouch \n
+ - the accelerometers detecting the tremor of the body, etc. \n
+\n
+From these data using the universal method developed by the leading Czech and American scientists (because they are always right)
+the size of the subjects brain is calculated and it is then displayed.
+The application is so correct that you have a better chance to win in the lottery than the app is wrong. \n
+</string>
+</resources>

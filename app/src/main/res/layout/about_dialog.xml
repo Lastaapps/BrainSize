@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/roots_padding">
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        style="@style/BigLabels"
+        android:text="@string/app_name" />
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        style="@style/Labels"
+        android:layout_below="@+id/label"
+        android:text="@string/version" />
+
+    <TextView
+        android:id="@+id/release"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        style="@style/Labels"
+        android:layout_below="@+id/version"
+        android:text="@string/release" />
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        style="@style/Labels"
+        android:layout_below="@+id/release"
+        android:text="@string/author" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        style="@style/Labels"
+        android:padding="@dimen/padding"
+        android:layout_below="@+id/author"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/share"
+            style="@style/Icons"
+            app:srcCompat="@android:drawable/ic_menu_share" />
+
+        <ImageButton
+            android:id="@+id/facebook"
+            style="@style/Icons"
+            app:srcCompat="@drawable/facebook" />
+
+        <ImageButton
+            android:id="@+id/web"
+            style="@style/Icons"
+            app:srcCompat="@drawable/web" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

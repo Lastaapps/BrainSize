@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Velikost mozku</string>
+    <string name="start" translatable="false">Klikni pro zahájení testu</string>
+    <string name="scanning">Skenuji...</string>
+    <string name="counting">Přepočítávám data...</string>
+    <string name="touch_to_scan">Drž pro měření</string>
+    <string name="begin_again">Zkus své přátele</string>
+    <string name="touch_the_button">Zmáčkni tlačítko</string>
+    <string name="brain_size">Tohle je tvůj mozek:</string>
+
+    <string name="fing_label">Vyber mozek, který se zobrazí:</string>
+    <string name="input_label">Počet zobrazení:</string>
+    <string name="reset">Restartovat změněné mozky</string>
+
+    <string name="update_title">Je dostupná aktualizace!</string>
+    <string name="update_text">Klikni a stáhni ještě dnes!</string>
+
+    <string name="version">Verze</string>
+    <string name="release">Vydání</string>
+    <string name="author">Lašťa apps</string>
+
+    <string name="soon">Funkce ve vývoji</string>
+
+    <string name="how_work_title"><u>Jak to funguje?</u></string>
+    <string name="how_work_text">
+Náš měřící mechanismus je založen na údajích prakticky ze všech senzorů zařízení, např.:\n
+ - přední kamera sledující velikost hlavy\n
+ - display měřící srdeční tep\n
+ - mikrofon zjišťující úroveň vaší slovní zásoby\n
+ - gyroskopy ověřující, zda se nehrbíte\n
+ - akcelerometry detekující třes těla atd.\n
+\n
+Z těchto dat je univerzální metodou vyvinutou předními českými a americkými vědci (protože oni mají vždy pravdu)
+vypočtena velikost mozku měřeného subjektu a následně zobrazena jeho grafická podoba.
+Aplikace je tak přesná, že spíše vyhrajete ve Sportce, než že se splete.\n
+    </string>
+
+</resources>
